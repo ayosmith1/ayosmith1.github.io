@@ -1,0 +1,13 @@
+function setup() {
+  createCanvas(400, 400);
+  // Start the shape
+  beginShape();
+  // Define the vertices of a pentagon
+  vertex(200, 100); // Top vertex
+  vertex(100, 170); // Top left vertex
+  vertex(140, 300); // Bottom left vertex
+  vertex(260, 300); // Bottom right vertex
+  vertex(300, 170); // Top right vertex
+  // End the shape and close the path
+  endShape(CLOSE);
+}
